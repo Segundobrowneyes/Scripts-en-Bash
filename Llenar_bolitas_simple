@@ -1,0 +1,79 @@
+program {
+    
+    PrenderOApagarLuz()
+    }
+procedure PrenderOApagarLuz(){
+    
+    LlenarBolitasNegras()
+
+    
+ }
+
+procedure LlenarBolitasNegras()
+{
+    LlenarFilauno()
+    LlenarFilados()
+    LlenarFilatres()
+    LlenarFilacuatro()
+ }
+procedure MoverDerBolitasNegras()
+{
+ if (puedeMover(Este))   {
+    Mover(Este)
+    
+ }else {
+     Mover(Norte)
+ }
+}
+procedure MoverIzqBolitasNegras()
+ {
+ if (puedeMover(Oeste))   {
+    Mover(Oeste)
+}else {
+     Mover(Norte)
+ }
+ }
+procedure LlenarFilauno()
+{
+    Poner (Negro)
+    MoverDerBolitasNegras()
+    Poner (Negro)
+    MoverDerBolitasNegras()
+    Poner (Negro)
+    MoverDerBolitasNegras()
+    Poner (Negro)
+}
+procedure LlenarFilados()
+{
+    Mover (Norte)
+    Poner (Negro)
+    MoverIzqBolitasNegras()
+    Poner (Negro)
+    MoverIzqBolitasNegras()
+    Poner (Negro)
+    MoverIzqBolitasNegras()
+    Poner (Negro)
+}
+procedure LlenarFilatres()
+{
+    MoverIzqBolitasNegras()
+    Poner (Negro)
+    MoverDerBolitasNegras()
+    Poner (Negro)
+    MoverDerBolitasNegras()
+    Poner (Negro)
+    MoverDerBolitasNegras()
+    Poner (Negro)
+}
+procedure LlenarFilacuatro()
+{
+    MoverDerBolitasNegras()
+    Poner (Negro)
+    MoverIzqBolitasNegras()
+    Poner(Negro)
+    MoverIzqBolitasNegras()
+    Poner(Negro)
+    MoverIzqBolitasNegras()
+    Poner(Negro)
+}
+ 
