@@ -1,0 +1,13 @@
+program {
+    
+    PonerUnaDeCadaColor()
+    
+    
+}
+procedure PonerUnaDeCadaColor()
+
+{
+
+  Poner(Azul); Poner(Negro); Poner(Rojo); Poner(Verde)
+
+}
