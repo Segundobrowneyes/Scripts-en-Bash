@@ -1,0 +1,14 @@
+program {
+    
+    PonerUnaDeCadaColor()
+ }
+
+procedure PonerUnaDeCadaColor()
+
+{
+  foreach color in [minColor() .. maxColor()]{
+Poner (color)
+
+      
+  }
+}
