@@ -1,0 +1,12 @@
+/*
+PROPOSITO:
+* dibujar un cuadrado de 3 celdas de lado,
+del color dado por colorDeCuadrado
+PRECONDICIONES:
+* hay 2 celdas al Norte y 2 celdas al Este de la actual
+OBSERVACIONES:
+* utiliza un procedimiento parametrizado para
+dibujar l´ıneas
+* utiliza el par´ametro de DibujarCuadrado3 como
+argumento de DibujarLinea2Hacia
+*/
