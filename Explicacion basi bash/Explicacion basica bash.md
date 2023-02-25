@@ -66,6 +66,25 @@ done
 
 ```
 
+2) Bucle while: Este tipo de bucle se utiliza para repetir una acción mientras se cumpla una condición específica. La sintaxis es la siguiente:
+
+```
+while condición
+do
+  comandos
+done
+
+```
+Por ejemplo, el siguiente bucle imprimirá los números del 1 al 5:
+
+```
+i=1
+while [ $i -le 5 ]
+do
+  echo $i
+  i=$((i + 1))
+done
+```
 
  
 
