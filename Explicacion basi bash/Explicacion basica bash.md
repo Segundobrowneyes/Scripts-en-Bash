@@ -56,6 +56,15 @@ do
 done
 ```
 
+Por ejemplo, el siguiente bucle imprimirá los números del 1 al 5:
+
+```
+for i in 1 2 3 4 5
+do
+  echo $i
+done
+
+```
 
 
  
