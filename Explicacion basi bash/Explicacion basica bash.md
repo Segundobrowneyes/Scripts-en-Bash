@@ -1,16 +1,19 @@
-Bash es un lenguaje de scripting que se utiliza en sistemas Unix y Linux para automatizar tareas y realizar operaciones en el sistema operativo. La lógica detrás de los scripts de bash se basa en las siguientes etapas:
+Para empezar a escribir scripts en bash, sigue estos pasos:
 
-Shebang: la primera línea de un script de bash es el "shebang", que indica al sistema operativo que se debe ejecutar el script con el intérprete de bash. El shebang es #!/bin/bash.
+Abre un editor de texto: Puedes usar cualquier editor de texto en tu sistema operativo, como vim, nano, gedit, etc.
 
-Variables: en los scripts de bash, es posible definir y usar variables. Las variables se pueden definir con el siguiente formato: nombre_variable=valor. Luego, se puede acceder al valor de la variable con el formato $nombre_variable.
+Especifica que es un script de bash: En la primera línea de tu archivo, agrega "#!/bin/bash" para indicar que se trata de un script en bash.
 
-Argumentos: los scripts de bash pueden recibir argumentos cuando se ejecutan. Estos argumentos se pueden acceder mediante variables especiales: $1, $2, $3, etc. También se puede acceder a todos los argumentos mediante la variable $@.
+Escribe tus comandos: Después de la primera línea, escribe los comandos de bash que quieres ejecutar en el script.
 
-Comprobación de número de argumentos: es común verificar en un script de bash que se han proporcionado el número correcto de argumentos. Esto se puede hacer con una estructura de control de flujo como un if-statement. Por ejemplo:
+Guarda el archivo: Guarda el archivo con una extensión ".sh" para identificarlo como un script.
 
-```
-if [ $# -ne 2 ]; then
-    echo "Error: se requieren dos argumentos."
-    exit 1
-fi
-```
+Da permisos de ejecución al archivo: Usa el comando "chmod +x nombre_del_archivo.sh" para dar permisos de ejecución al archivo.
+
+Ejecuta el script: Puedes ejecutar el script con el comando "./nombre_del_archivo.sh" en la terminal.
+
+Estos son los pasos básicos para escribir y ejecutar un script en bash. A medida que vayas avanzando en la escritura de scripts, puedes aprender más sobre cómo manejar entrada de usuario, bucles, condicionales, funciones, etc. ¡Buena suerte!
+
+
+
+
