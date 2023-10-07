@@ -21,7 +21,7 @@ Estructuras de control de flujo: en bash, existen varias estructuras de control 
 
 Comandos: por último, los scripts de bash son secuencias de comandos que se ejecutan en el terminal. Estos comandos pueden ser comandos internos de bash, como echo o cd, o pueden ser programas externos, como ls o grep.
 
-## exit
+## Exit
 
 Exit es un comando en Bash que se utiliza para terminar la ejecución de un script o de una sesión de terminal. Cuando se ejecuta el comando exit, el script o la sesión de terminal finaliza y el sistema operativo vuelve al modo de comandos o a la sesión anterior, si es que existe.
 
