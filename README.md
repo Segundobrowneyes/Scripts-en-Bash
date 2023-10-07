@@ -1,4 +1,4 @@
-## Bash scripting
+# Bash scripting
 Bash es un lenguaje de scripting que se utiliza en sistemas Unix y Linux para automatizar tareas y realizar operaciones en el sistema operativo. La lógica detrás de los scripts de bash se basa en las siguientes etapas:
 
 Shebang: la primera línea de un script de bash es el "shebang", que indica al sistema operativo que se debe ejecutar el script con el intérprete de bash. El shebang es #!/bin/bash.
@@ -22,6 +22,7 @@ Estructuras de control de flujo: en bash, existen varias estructuras de control 
 Comandos: por último, los scripts de bash son secuencias de comandos que se ejecutan en el terminal. Estos comandos pueden ser comandos internos de bash, como echo o cd, o pueden ser programas externos, como ls o grep.
 
 ##exit
+
 Exit es un comando en Bash que se utiliza para terminar la ejecución de un script o de una sesión de terminal. Cuando se ejecuta el comando exit, el script o la sesión de terminal finaliza y el sistema operativo vuelve al modo de comandos o a la sesión anterior, si es que existe.
 
 El comando exit puede recibir un argumento opcional, que es un número entero. Este número se conoce como "código de salida" y se utiliza para indicar el estado de la salida. Por convención, un código de salida de 0 indica una salida exitosa, mientras que cualquier otro número indica un error. Por ejemplo:
