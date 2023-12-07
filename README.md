@@ -35,3 +35,17 @@ exit 0
 exit 1
 
 ```
+En los scripts de Bash, es común utilizar el comando exit para indicar el final del script y para proporcionar un código de salida que indique el resultado de la ejecución del script. Por ejemplo:
+
+```
+# Script de ejemplo
+if [ $# -ne 2 ]; then
+    echo "Error: se requieren dos argumentos."
+    exit 1
+fi
+echo "Los argumentos proporcionados son $1 y $2"
+exit 0
+
+
+```
+
