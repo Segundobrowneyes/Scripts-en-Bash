@@ -48,4 +48,4 @@ exit 0
 
 
 ```
-
+En este ejemplo, el script verifica si se han proporcionado dos argumentos y, si no es así, muestra un mensaje de error y sale del script con un código de salida de 1. Si se proporcionan dos argumentos, el script muestra un mensaje con los argumentos y sale del script con un código de salida de 0.
